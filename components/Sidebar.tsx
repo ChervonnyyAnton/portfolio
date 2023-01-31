@@ -1,10 +1,11 @@
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
+import Image from 'next/image';
 
 const Sidebar = () => {
   return (
     <div>
-      <img
+      <Image
         src="https://avatars.githubusercontent.com/u/94194066?v=4"
         alt="user_avatar"
         className="w-32 h-32 mx-auto border rounded-full"
@@ -25,13 +26,13 @@ const Sidebar = () => {
         Download Resume
       </a>
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-        <a href="https://www.linkedin.com/in/chervonnyy/" target="_blank">
+        <a href="https://www.linkedin.com/in/chervonnyy/" target="_blank" rel="noreferrer">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://github.com/ChervonnyyAnton" target="_blank">
+        <a href="https://github.com/ChervonnyyAnton" target="_blank" rel="noreferrer">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.youtube.com/@Pro100proQA" target="_blank">
+        <a href="https://www.youtube.com/@Pro100proQA" target="_blank" rel="noreferrer">
           <AiFillYoutube className="w-8 h-8 cursor-pointer" />
         </a>
       </div>

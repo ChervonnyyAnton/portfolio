@@ -1,9 +1,12 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "chervonnyyanton.github.io/portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "next build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -23,6 +26,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4"
   }
