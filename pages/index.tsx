@@ -10,11 +10,11 @@ const index = ({}) => {
         commodi dolor atque fuga! Non, accusamus perferendis. Incidunt cum eius
         et quas.
       </h5>
-      <div className="flex-grow p-4 mt-5 bg-gray-400" style={{ marginLeft: "-1.5rem", marginRight: '-1.5Rem'}}>
+      <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-500" style={{ marginLeft: "-1.5rem", marginRight: '-1.5Rem'}}>
         <h6 className="my-3 text-xl font-bold tracking-wider">What I can offer</h6>
         <div className="grid gap-6 lg:grid-cols-2">
           {services.map((service) => (
-            <div className="bg-gray-200 rounded-lg lg:col-span-1">
+            <div className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1">
               <ServiceCard service={service} key={service.title} />
             </div>
           ))}
