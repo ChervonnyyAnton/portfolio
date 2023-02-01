@@ -1,9 +1,4 @@
 import ServiceCard from "@/components/ServiceCard";
-import {
-  GetServerSidePropsContext,
-  GetStaticProps,
-  GetStaticPropsContext,
-} from "next";
 import { services } from "../data";
 
 const index = ({}) => {
@@ -30,13 +25,3 @@ const index = ({}) => {
 };
 
 export default index;
-
-/*export async function getServerSideProps(context: GetServerSidePropsContext) {
-  const response = await fetch("http://localhost:3000/api/services");
-  const data = await response.json();
-  return {
-    props: {
-      services: data,
-    },
-  };
-}*/

@@ -1,4 +1,3 @@
-import { useTheme } from "next-themes";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 
