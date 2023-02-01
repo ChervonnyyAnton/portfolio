@@ -1,14 +1,23 @@
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
-import Image from 'next/image';
+import { useTheme } from "next-themes";
 
 const Sidebar = () => {
+
+  const { theme, setTheme } = useTheme();
+  const changeTheme = () => 
+  {
+    setTheme(theme === "light" ? "dark" : "light");
+  }
+  
   return (
     <div>
-      <Image
+      <img
         src="https://avatars.githubusercontent.com/u/94194066?v=4"
         alt="user_avatar"
         className="w-32 h-32 mx-auto border rounded-full"
+        width={128}
+        height={128}
       />
       <h3 className="my-4 font-medium tracking-wider text-3x1 font-kaushan">
         <span className="text-green">Chervonnyy </span>
@@ -36,14 +45,9 @@ const Sidebar = () => {
           <AiFillYoutube className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
-      <div
-        className="py-4 my-5 bg-gray-200"
-        style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
-      >
-        <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 font-kaushan">
+        <button onClick={changeTheme} className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 font-kaushan">
           Toggle Theme
         </button>
-      </div>
     </div>
   );
 };
