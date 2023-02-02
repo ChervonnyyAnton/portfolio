@@ -3,7 +3,7 @@ import { SiCsharp, SiFrontendmentor } from "react-icons/si";
 import { MdDeveloperMode, MdOutlineDeveloperBoard } from "react-icons/md";
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { DiJava } from "react-icons/di";
-import { IService, ISkill } from "./type";
+import { IProject, IService, ISkill } from "./type";
 import { VscCircleLargeFilled, VscCircleLargeOutline } from "react-icons/vsc";
 
 export const services: IService[] = [
@@ -164,3 +164,97 @@ export const tools: ISkill[] =
     Icon: VscCircleLargeOutline,
   }
 ];
+
+export const projects:IProject[] = 
+[
+  {
+    name: "1 Lorem ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    image_path: "/images/1.png",
+    deployed_url: "https://google.com",
+    github_url: "https://google.com",
+    category: ["react"],
+    key_techs: ["one"],
+  },
+  {
+    name: "2 Lorem ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    image_path: "/images/1.png",
+    deployed_url: "https://google.com",
+    github_url: "https://google.com",
+    category: ["node"],
+    key_techs: ["one", "two"],
+  },
+  {
+    name: "3 Lorem ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    image_path: "/images/1.png",
+    deployed_url: "https://google.com",
+    github_url: "https://google.com",
+    category: ["mongo"],
+    key_techs: ["three", "four"],
+  },
+  {
+    name: "4 Lorem ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    image_path: "/images/1.png",
+    deployed_url: "https://google.com",
+    github_url: "https://google.com",
+    category: ["express"],
+    key_techs: ["five", "six", "seven"],
+  },
+  {
+    name: "5 Lorem ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    image_path: "/images/1.png",
+    deployed_url: "https://google.com",
+    github_url: "https://google.com",
+    category: ["nextjs"],
+    key_techs: ["one", "three", "five", "seven", "nine"],
+  },
+  {
+    name: "6 Lorem ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    image_path: "/images/1.png",
+    deployed_url: "https://google.com",
+    github_url: "https://google.com",
+    category: ["react"],
+    key_techs: ["one"],
+  },
+  {
+    name: "7 Lorem ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    image_path: "/images/1.png",
+    deployed_url: "https://google.com",
+    github_url: "https://google.com",
+    category: ["node"],
+    key_techs: ["one", "two"],
+  },
+  {
+    name: "8 Lorem ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    image_path: "/images/1.png",
+    deployed_url: "https://google.com",
+    github_url: "https://google.com",
+    category: ["mongo"],
+    key_techs: ["three", "four"],
+  },
+  {
+    name: "9 Lorem ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    image_path: "/images/1.png",
+    deployed_url: "https://google.com",
+    github_url: "https://google.com",
+    category: ["express"],
+    key_techs: ["five", "six", "seven"],
+  },
+  {
+    name: "10 Lorem ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    image_path: "/images/1.png",
+    deployed_url: "https://google.com",
+    github_url: "https://google.com",
+    category: ["nextjs"],
+    key_techs: ["one", "three", "five", "seven", "nine"],
+  },
+]
