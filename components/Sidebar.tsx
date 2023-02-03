@@ -1,9 +1,10 @@
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { useTheme } from "next-themes";
+import Image from "next/image";
 
 
-const Sidebar = () => {
+const Sidebar: React.FC = () => {
   const { theme, setTheme } = useTheme();
   const changeTheme = () => 
   {
@@ -12,12 +13,13 @@ const Sidebar = () => {
   
   return (
     <div>
-      <img
+      <Image
         src="https://avatars.githubusercontent.com/u/94194066?v=4"
         alt="user_avatar"
         className="w-32 h-32 mx-auto border rounded-full"
         width={128}
         height={128}
+        quality={100}
       />
       <h3 className="my-4 font-medium tracking-wider text-3x1 font-kaushan">
         <span className="text-green">Chervonnyy </span>

@@ -1,20 +1,21 @@
 import { IService } from "@/type";
 
-const ServiceCard: React.FC<{ service: IService}> = ({service: {Icon, description, title}}) => 
-{
+const ServiceCard: React.FC<{ service: IService }> = ({
+  service: { Icon, description, title },
+}) => {
+  const createMarkup = () => {
+    return { __html: description };
+  };
 
-    const createMarkup = () => 
-    {
-        return {__html: description};
-    }
-    
-    return <div className="flex p-2 space-x-4 item-center">
-        <Icon className="w-12 h-12 text-green" />
-        <div>
-            <h4 className="font-bold">{title}</h4>
-            <p dangerouslySetInnerHTML={createMarkup()} />
-        </div>
+  return (
+    <div className="flex p-2 space-x-4 item-center">
+      <Icon className="w-12 h-12 text-green" />
+      <div>
+        <h4 className="font-bold">{title}</h4>
+        <p dangerouslySetInnerHTML={createMarkup()} />
+      </div>
     </div>
+  );
 };
 
 export default ServiceCard;

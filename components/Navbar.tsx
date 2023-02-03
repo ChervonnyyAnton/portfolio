@@ -2,7 +2,7 @@ import Link from "next/dist/client/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const [activeItem, setActiveItem] = useState<string>("");
 
   const { pathname } = useRouter();

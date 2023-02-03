@@ -61,52 +61,52 @@ export const languages: ISkill[] =
 [
   {
     name: "1 Lorem",
-    level: "50%",
+    level: "50",
     Icon: VscCircleLargeFilled,
   },
   {
     name: "2 Lorem",
-    level: "55%",
+    level: "55",
     Icon: VscCircleLargeFilled,
   },
   {
     name: "3 Lorem",
-    level: "60%",
+    level: "60",
     Icon: VscCircleLargeFilled,
   },
   {
     name: "4 Lorem",
-    level: "65%",
+    level: "65",
     Icon: VscCircleLargeFilled,
   },
   {
     name: "5 Lorem",
-    level: "70%",
+    level: "70",
     Icon: VscCircleLargeFilled,
   },
   {
     name: "6 Lorem",
-    level: "75%",
+    level: "75",
     Icon: VscCircleLargeFilled,
   },
   {
     name: "7 Lorem",
-    level: "80%",
+    level: "80",
     Icon: VscCircleLargeFilled,
   },
   {
     name: "8 Lorem",
-    level: "85%",
+    level: "85",
     Icon: VscCircleLargeFilled,
   },
   {
     name: "9 Lorem",
-    level: "90%",
+    level: "90",
     Icon: VscCircleLargeFilled,
   },
   {
     name: "10 Lorem",
-    level: "95%",
+    level: "95",
     Icon: VscCircleLargeFilled,
   }
 ];
@@ -115,52 +115,52 @@ export const tools: ISkill[] =
 [
   {
     name: "1 ipsum",
-    level: "50%",
+    level: "50",
     Icon: VscCircleLargeOutline,
   },
   {
     name: "2 ipsum",
-    level: "55%",
+    level: "55",
     Icon: VscCircleLargeOutline,
   },
   {
     name: "3 ipsum",
-    level: "60%",
+    level: "60",
     Icon: VscCircleLargeOutline,
   },
   {
     name: "4 ipsum",
-    level: "65%",
+    level: "65",
     Icon: VscCircleLargeOutline,
   },
   {
     name: "5 ipsum",
-    level: "70%",
+    level: "70",
     Icon: VscCircleLargeOutline,
   },
   {
     name: "6 ipsum",
-    level: "75%",
+    level: "75",
     Icon: VscCircleLargeOutline,
   },
   {
     name: "7 ipsum",
-    level: "80%",
+    level: "80",
     Icon: VscCircleLargeOutline,
   },
   {
     name: "8 ipsum",
-    level: "85%",
+    level: "85",
     Icon: VscCircleLargeOutline,
   },
   {
     name: "9 ipsum",
-    level: "90%",
+    level: "90",
     Icon: VscCircleLargeOutline,
   },
   {
     name: "10 ipsum",
-    level: "95%",
+    level: "95",
     Icon: VscCircleLargeOutline,
   }
 ];
@@ -168,6 +168,7 @@ export const tools: ISkill[] =
 export const projects:IProject[] = 
 [
   {
+    id: 1,
     name: "1 Lorem ipsum",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
@@ -177,6 +178,7 @@ export const projects:IProject[] =
     key_techs: ["one"],
   },
   {
+    id: 2,
     name: "2 Lorem ipsum",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
@@ -186,6 +188,7 @@ export const projects:IProject[] =
     key_techs: ["one", "two"],
   },
   {
+    id: 3,
     name: "3 Lorem ipsum",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
@@ -195,6 +198,7 @@ export const projects:IProject[] =
     key_techs: ["three", "four"],
   },
   {
+    id: 4,
     name: "4 Lorem ipsum",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
@@ -204,6 +208,7 @@ export const projects:IProject[] =
     key_techs: ["five", "six", "seven"],
   },
   {
+    id: 5,
     name: "5 Lorem ipsum",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
@@ -213,6 +218,7 @@ export const projects:IProject[] =
     key_techs: ["one", "three", "five", "seven", "nine"],
   },
   {
+    id: 6,
     name: "6 Lorem ipsum",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
@@ -222,6 +228,7 @@ export const projects:IProject[] =
     key_techs: ["one"],
   },
   {
+    id: 7,
     name: "7 Lorem ipsum",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
@@ -231,6 +238,7 @@ export const projects:IProject[] =
     key_techs: ["one", "two"],
   },
   {
+    id: 8,
     name: "8 Lorem ipsum",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
@@ -240,6 +248,7 @@ export const projects:IProject[] =
     key_techs: ["three", "four"],
   },
   {
+    id: 9,
     name: "9 Lorem ipsum",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
@@ -249,6 +258,7 @@ export const projects:IProject[] =
     key_techs: ["five", "six", "seven"],
   },
   {
+    id: 10,
     name: "10 Lorem ipsum",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
