@@ -23,4 +23,13 @@ export interface IProject {
   key_techs: string[];
 }
 
+export interface IImage {
+  url: string;
+  alt: string;
+  style: string;
+  width: number;
+  height: number;
+  quality: number;
+}
+
 export type Category = "react" | "node" | "mongo" | "express" | "nextjs";

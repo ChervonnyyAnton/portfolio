@@ -1,6 +1,6 @@
 import { fadingUp, routing, stagger } from "@/animations";
-import ProjectCard from "@/components/ProjectCard";
-import ProjectsNavbar from "@/components/ProjectsNavbar";
+import ProjectCard from "@/elements/ProjectCard";
+import ProjectsNavbar from "@/elements/ProjectsNavbar";
 import { projects as projectsData } from "@/data";
 import { Category } from "@/type";
 import { motion } from "framer-motion";

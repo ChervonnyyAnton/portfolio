@@ -1,5 +1,5 @@
 import { fadingUp, routing, stagger } from "@/animations";
-import ServiceCard from "@/components/ServiceCard";
+import ServiceCard from "@/elements/ServiceCard";
 import { motion } from "framer-motion";
 import { NextPage } from "next";
 import { services } from "../data";
