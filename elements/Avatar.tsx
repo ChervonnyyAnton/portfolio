@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Avatar() {
+const Avatar: React.FC = () => {  
   return (
     <Image
       src="https://avatars.githubusercontent.com/u/94194066?v=4"
@@ -11,4 +11,6 @@ export default function Avatar() {
       quality={100}
     />
   );
-}
+};
+
+export default Avatar;

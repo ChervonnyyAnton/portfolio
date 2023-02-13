@@ -12,6 +12,11 @@ export interface ISkill {
   Icon: IconType;
 }
 
+export interface ISocial {
+  name: string;
+  link: string;
+}
+
 export interface IProject {
   id: number;
   name: string;

@@ -1,9 +1,9 @@
 import Avatar from "@/elements/Avatar";
 import NameTag from "@/elements/NameTag";
 import RoleTag from "@/elements/RoleTag";
-import DownloadCVButton from "@/elements/DownloadCVButton";
 import SocialMediaBar from "@/elements/SocialMediaBar";
 import ToggleThemeButtons from "@/elements/ToggleThemeButton";
+import DownloadButton from "@/elements/DownloadButton";
 
 
 const Sidebar: React.FC = () => {
@@ -13,7 +13,7 @@ const Sidebar: React.FC = () => {
       <Avatar />
       <NameTag />
       <RoleTag />
-      <DownloadCVButton />
+      <DownloadButton />
       <SocialMediaBar />
       <ToggleThemeButtons />
     </div>

@@ -1,11 +1,11 @@
 import { useTheme } from "next-themes";
 
-export default function ToggleThemeButtons() {
+const ToggleThemeButtons: React.FC = () => {
   const { theme, setTheme } = useTheme();
   const changeTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
-
+  
   return (
     <button
       onClick={changeTheme}
@@ -14,4 +14,6 @@ export default function ToggleThemeButtons() {
       Toggle Theme
     </button>
   );
-}
+};
+
+export default ToggleThemeButtons;

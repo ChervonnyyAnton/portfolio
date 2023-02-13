@@ -3,7 +3,7 @@ import { SiCsharp, SiFrontendmentor } from "react-icons/si";
 import { MdDeveloperMode, MdOutlineDeveloperBoard } from "react-icons/md";
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { DiJava } from "react-icons/di";
-import { IProject, IService, ISkill } from "./type";
+import { IProject, IService, ISkill, ISocial } from "./type";
 import { VscCircleLargeFilled, VscCircleLargeOutline } from "react-icons/vsc";
 
 export const services: IService[] = [
@@ -54,11 +54,10 @@ export const services: IService[] = [
     description:
       "Lorem ipsum dolor sit <b>amet</b> consectetur adipisicing elit. <b>Quisquam</b>, voluptatum.",
     Icon: SiCsharp,
-  }
+  },
 ];
 
-export const languages: ISkill[] = 
-[
+export const languages: ISkill[] = [
   {
     name: "1 Lorem",
     level: "50",
@@ -108,11 +107,10 @@ export const languages: ISkill[] =
     name: "10 Lorem",
     level: "95",
     Icon: VscCircleLargeFilled,
-  }
+  },
 ];
 
-export const tools: ISkill[] = 
-[
+export const tools: ISkill[] = [
   {
     name: "1 ipsum",
     level: "50",
@@ -162,15 +160,15 @@ export const tools: ISkill[] =
     name: "10 ipsum",
     level: "95",
     Icon: VscCircleLargeOutline,
-  }
+  },
 ];
 
-export const projects:IProject[] = 
-[
+export const projects: IProject[] = [
   {
     id: 1,
     name: "1 Lorem ipsum",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com",
@@ -180,7 +178,8 @@ export const projects:IProject[] =
   {
     id: 2,
     name: "2 Lorem ipsum",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com",
@@ -190,7 +189,8 @@ export const projects:IProject[] =
   {
     id: 3,
     name: "3 Lorem ipsum",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com",
@@ -200,7 +200,8 @@ export const projects:IProject[] =
   {
     id: 4,
     name: "4 Lorem ipsum",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com",
@@ -210,7 +211,8 @@ export const projects:IProject[] =
   {
     id: 5,
     name: "5 Lorem ipsum",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com",
@@ -220,7 +222,8 @@ export const projects:IProject[] =
   {
     id: 6,
     name: "6 Lorem ipsum",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com",
@@ -230,7 +233,8 @@ export const projects:IProject[] =
   {
     id: 7,
     name: "7 Lorem ipsum",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com",
@@ -240,7 +244,8 @@ export const projects:IProject[] =
   {
     id: 8,
     name: "8 Lorem ipsum",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com",
@@ -250,7 +255,8 @@ export const projects:IProject[] =
   {
     id: 9,
     name: "9 Lorem ipsum",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com",
@@ -260,11 +266,27 @@ export const projects:IProject[] =
   {
     id: 10,
     name: "10 Lorem ipsum",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     image_path: "/images/1.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com",
     category: ["nextjs"],
     key_techs: ["one", "three", "five", "seven", "nine"],
   },
-]
+];
+
+export const socials: ISocial[] = [
+  {
+    name: "Github",
+    link: "https://github.com/ChervonnyyAnton",
+  },
+  {
+    name: "Linkedin",
+    link: "https://www.linkedin.com/in/chervonnyy/",
+  },
+  {
+    name: "Youtube",
+    link: "https://www.youtube.com/@Pro100proQA",
+  },
+];
